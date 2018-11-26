@@ -427,6 +427,12 @@ h6, .h6 {
   line-height: 1.2;
 }
 
+.display-6 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -4924,7 +4930,7 @@ input[type="button"].btn-block {
 
 .jumbotronfooter {
   padding-top:15px;
-  padding-bottom:15px;
+  padding-bottom:20px;
   padding-right:20px;
   padding-left:20px;
   background-color: RGB(49,70,87);
@@ -9128,6 +9134,15 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
-overflow-x: hidden;
+  overflow-x: hidden;
+  height:100%;
+  margin:0;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
