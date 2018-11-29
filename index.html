@@ -2,35 +2,35 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="bootstrap-4.1.2-dist/css/bootstrap.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
     </head>
         <header>
             <div class="jumbotron2">
                 <div class="row">
-                    <div class="col-sm-9 col-md-9 marginheadtitle">
+                    <div class="col-sm-7 col-md-9  marginheadtitle">
                         <div>
                             <h2 class="display-4">Home</h2>
                         </div>
                     </div>
                         <ul class="dropdown margintop float-right">
-                            <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class="btn btn-secondary btn-lg dropdown-toggle rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             Menu
                             </button>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu" id="MenuMargin">
                                 <li><a class="lead" id="blacklink" href="index.html"><strong>Home</strong></a></li>
                                 <li><a class="lead" id="blacklink" href="Last_AboutMe.html">About Me</a></li>
                                 <li><a class="lead" id="blacklink" href="DaylenBoenResume.html">Resume</a></li>
-                                <li class="divider"></li>
                                 <li><a class="lead" id="blacklink" href="Projects.html">Projects</a></li>
                                 <li><a class="lead" id="blacklink" href="Contact.html">Contact Me</a></li>
                             </ul>
                         </ul>
                     </div>
                 </div>
-            <div class="marginbottom jumbotron3">
+            <div class="marginbottom jumbotron3 white">
                 <div class="text-center">
-                    <h1 class="white display-4">Daylen Boen's Portfolio</h1>
-                    <p class="white">This is the link to my "About Me" page.</p>
-                    <p class="white"><a href="Last_AboutMe.html"><u>Continue Reading</u></a></p>
+                    <h1 class="display-4 animated slideInLeft">Daylen Boen's Portfolio</h1>
+                    <p class="animated slideInRight">This is the link to my "About Me" page.</p>
+                    <p class="animated slideInUp"><a href="Last_AboutMe.html"><u class="hvr-grow">Continue Reading</u></a></p>
                 </div>
             </div>
         </header>
@@ -44,11 +44,10 @@
                                     <h5>Experience</h5>
                                     <h3 class="card-title">DHS Science Fair</h3>
                                     <p class="card-text">In Freshmen year of High School, my group partcipated in the Dublin High School Science Fair. We designed
-                                                        and engineered a fan powered by the heat produced by boiling water; our invention was successful. Below
-                                                        is a link to our report on the project.</p>
+                                                        and engineered a fan powered by the heat produced by boiling water; our invention was successful.</p>
                                     <a id="blacklink" target="_blank" href="https://docs.google.com/document/d/1iXZzE7ovn59Fgfrk7osWENGqxD0FnsnOneYVj2WPQT0/edit?usp=sharing"><u>Scientific Report</u></a>
                                 </div>
-                            <img class="col-sm-6" src="Images/fan.JPG" alt="sciencefair" height=250px>
+                            <img class="col-sm-6" src="Images/fan.JPG" alt="sciencefair" height=220px>
                         </div>
                     </div>
                 </div>
@@ -87,14 +86,12 @@
                             <div class="row card-body">
                                 <div class="col-sm-6">
                                     <h5>Project</h5>
-                                    <h3 class="card-title">Mit App Inventor</h3>
-                                    <p class="card-text">Using Mit App Inventor, my partner and I created a game based on the MAI (Mit App Inventor) Tutorial
-                                                        "Grab the Gold". </p>
-                                    <a id="blacklink" href="https://drive.google.com/file/d/1y0oXpVdnt5Fn0bCqSHAmWd8iMEREsE-q/view" target="_blank"><u>Project Download Link</u></a>
-                                    <br>
+                                    <h3 class="card-title">Scratch</h3>
+                                    <p class="card-text">Using Scratch, my partner and I made a game in resemblance to the popular website-based video games
+                                                        "World's Hardest Game"</p>
                                     <a id="blacklink" href="Projects.html" target="_blank"><u>Project Page</u></a>
                                 </div>
-                            <img class="col-sm-6" src="Images/Grab_The_Gold.png" alt="Grab The Gold" height=200px>
+                            <img class="col-sm-6" src="Images/ScratchCode.PNG" alt="Scratch" height=200px>
                         </div>
                     </div>
                 </div>
@@ -103,8 +100,8 @@
     </body>
         <footer class="jumbotronfooter">
             <div>
-                <a href="https://www.dublin.k12.ca.us/" target="_blank"><img class="float-right" src="Images/gael.jpg" width="80px"/></a>
-                <a href=""><img src="Images/mail-480.png" width="100px"/></a>
+                <a href="https://www.dublin.k12.ca.us/" target="_blank"><img class="float-right hvr-grow" src="Images/gael.jpg" width="80px"/></a>
+                <a href="Contact.html"><img class="hvr-grow" src="Images/mail-480.png" width="100px"/></a>
             </div>
         </footer>
 </html>

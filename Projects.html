@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="bootstrap-4.1.2-dist/css/bootstrap.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
     </head>
         <header>
             <div class="jumbotron2">
@@ -15,7 +16,7 @@
                             <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Menu
                             </button>
-                            <ul class="dropdown-menu marginleft">
+                            <ul class="dropdown-menu" id="MenuMargin">
                                 <li><a class="lead" id="blacklink" href="index.html">Home</a></li>
                                 <li><a class="lead" id="blacklink" href="Last_AboutMe.html">About Me</a></li>
                                 <li><a class="lead" id="blacklink" href="DaylenBoenResume.html">Resume</a></li>
@@ -31,14 +32,14 @@
         <div class="jumbotron3">
             <div class="row">
                 <div class="container text-center">
-                    <h1 class="display-4 white titlename">Daylen Boen</h1>
-                    <br>
-                    <h2 class="display-5 white titlename" style="margin-top:-15px;">Projects</h2>
+                    <h2 class="display-4 white titlename animated slideInRight">Projects</h2>
+                    <h1 class="display-5 white titlename animated slideInLeft">Daylen Boen</h1>
                 </div>
             </div>  
         </div>
             <div class="container margintop">
                 <div class="row marginbottom">
+                    <!-- This comment removes project #1
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
@@ -62,13 +63,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    -->
+                    <div class="col-sm-12">
                         <div class="card">
-                            <div class="card-body">
-                                <h5 class="display-6">Scratch</h5>
-                                <h5 class="display-5">The Impossible Game</h5>
-                                <p>8/30-9/5</p>
-                                <p>Our Scratch project, designed and modeled after the popular browser-game "World's Hardest Game", was 
+                            <div class="row card-body mx-auto">
+                                <div class="col-sm-4">
+                                    <h5 class="display-6">Scratch</h5>
+                                    <h5 class="display-5">The Impossible Game</h5>
+                                    <p>8/30-9/5</p>
+                                    <p>Our Scratch project, designed and modeled after the popular browser-game "World's Hardest Game", was 
                                 created to be as satisfying when finally completed as the original game. Each level was designed using the 
                                 program "Paint.NET", and every obstacle and monster was individually programmed based on it's position on 
                                 the map. We were originally worried about using the "touching color" element, however, we encountered 
@@ -77,21 +80,21 @@
                                 specifically helped with brainstorming for creative ideas. My partner and I were given experience into
                                 what it's like to throw out and criticise ideas, and which ideas we could implement into the game - with 
                                 the skills we had and time given. This experience has helped with every project sense. </p>
-                                <div class="text-center">
-                                    <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/244909523/?autostart=false" frameborder="0" allowfullscreen></iframe>
-                                    <br>
-                                    <img src="Images/ScratchCode.PNG" alt="Scratch" width="500px">
+                                <a href="https://docs.google.com/document/d/103wt15DhCAEKitPm5K_YYWpBXuhY9lxkeLWEFH6hiBQ/edit" target="_blank" style="color:black;"><u>Project Documentation</u></a>
                                 </div>
+                                    <a></a>
+                                <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/244909523/?autostart=false" frameborder="0" allowfullscreen style="margin-top:50px;"></iframe>
+                                <img src="Images/ScratchCode.PNG" alt="Scratch" width="450px" height="402" style="margin-top:50px;">            
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-    <footer class="jumbotronfooter">
-        <div>
-            <a href="https://www.dublin.k12.ca.us/" target="_blank"><img class="float-right" src="Images/gael.jpg" width="80px"/></a>
-            <a href=""><img src="Images/mail-480.png" width="100px"/></a>
-        </div>
-    </footer>
+        <footer class="jumbotronfooter">
+            <div>
+                <a href="https://www.dublin.k12.ca.us/" target="_blank"><img class="float-right hvr-grow" src="Images/gael.jpg" width="80px"/></a>
+                <a href="Contact.html"><img class="hvr-grow" src="Images/mail-480.png" width="100px"/></a>
+            </div>
+        </footer>
     </body>
 </html>

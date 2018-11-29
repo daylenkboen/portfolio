@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="bootstrap-4.1.2-dist/css/bootstrap.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
     </head>
         <header>
             <div class="jumbotron2">
@@ -15,7 +16,7 @@
                             <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Menu
                             </button>
-                            <ul class="dropdown-menu marginleft">
+                            <ul class="dropdown-menu" id="MenuMargin">
                                 <li><a class="lead" id="blacklink" href="index.html">Home</a></li>
                                 <li><a class="lead" id="blacklink" href="Last_AboutMe.html"><strong>About Me</strong></a></li>
                                 <li><a class="lead" id="blacklink" href="DaylenBoenResume.html">Resume</a></li>
@@ -28,20 +29,20 @@
                 </div>
         </header>
     <body>
-        <div class="jumbotronaboutme" id="AboutMeJumbotron" style="margin-bottom:70px;">
+        <div class="marginbottom" id="AboutMeJumbotron">
             <div class="row">
                 <div class="container text-center">
-                    <h1 class="display-4 white titlename">Daylen Boen</h1>
-                    <img src="Images/sciencefair.jpg" alt="daylen boen" width=100px height=100px>
+                    <h1 class="display-4 white titlename animated slideInLeft">Daylen Boen</h1>
+                    <img class="animated slideInRight" src="Images/sciencefair.jpg" alt="daylen boen" width=100px height=100px>
                 </div>
             </div>  
         </div>
-            <div class="container margintop" style="height:31rem;">
+            <div class="container margintop marginbottom text-center">
                 <div class="row marginbottom">
                     <div class="col-sm-6">
-                        <div class="card" style="height:18rem;">
+                        <div class="card">
                             <div class="row card-body">
-                                <div class="text-center">
+                                <div>
                                     <h5 class="display-5">Career</h5>
                                     <p>Carefully designing, developing, and organizing web pages to create a beautiful arrangement; one of 
                                        my main career goals is to learn web development. However, there are still many things I need to 
@@ -55,9 +56,9 @@
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <div class="card" style="height:18rem;">
+                        <div class="card">
                             <div class="row card-body">
-                                <div class="text-center">
+                                <div>
                                     <h5 class="display-5">Skills</h5>
                                     <p>For a website developer, I believe I retain some traits necessary: adaptable, resourceful, flexible,
                                        and more. Experiences I possess are the Dublin High School science fair; this helped me learn to 
@@ -73,8 +74,8 @@
                 <div class="row justify-content-center">
                     <div class="col-sm-6">
                         <div class="card">
-                            <div class="text-center">
-                                <h5 class="display-5">Thank You</h5>
+                            <div>
+                                <h5 class="display-5  ">Thank You</h5>
                                 <p>I appreciate you taking time to read about me. You can either return 
                                    <a href="index.html" style="color:black"><u>Home</u></a>, or use the navigation menu to go to another part
                                    part of my page. Thank you!
@@ -85,10 +86,10 @@
                 </div>
             </div>
         </body>
-    <footer class="jumbotronfooter">
-        <div>
-            <a href="https://www.dublin.k12.ca.us/"><img class="float-right" src="Images/gael.jpg" width="80px"/></a>
-            <a href=""><img src="Images/mail-480.png" width="100px"/></a>
-        </div>
-    </footer>    
+        <footer class="jumbotronfooter">
+            <div>
+                <a href="https://www.dublin.k12.ca.us/" target="_blank"><img class="float-right hvr-grow" src="Images/gael.jpg" width="80px"/></a>
+                <a href="Contact.html"><img class="hvr-grow" src="Images/mail-480.png" width="100px"/></a>
+            </div>
+        </footer>
 </html>
