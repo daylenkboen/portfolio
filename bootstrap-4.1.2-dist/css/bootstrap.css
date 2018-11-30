@@ -9137,6 +9137,10 @@ body {
   background-color:#F8EEE7;
 }
 
+html, body {
+  min-height:100%;
+}
+
 .center {
   display: block;
   margin-left: auto;
