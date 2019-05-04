@@ -4912,7 +4912,7 @@ input[type="button"].btn-block {
 }
 
 .jumbotron2 {
-  background-color: #94618E;
+  background-color: #D897FF;
   padding-right: 16px;
   max-height:70px;
 }
@@ -4929,11 +4929,15 @@ input[type="button"].btn-block {
   padding-bottom:20px;
   padding-right:20px;
   padding-left:20px;
-  background-color: #94618E;
+  background-color: #D897FF;
 }
 
 .white, a {
   color: white;
+}
+
+.alignright {
+  border-left: 15px;
 }
 
 @media (min-width: 576px) {
@@ -9135,6 +9139,7 @@ body {
   height:100%;
   margin:0;
   background-color:#F8EEE7;
+  background-image:url('languages.png');
 }
 
 html, body {
